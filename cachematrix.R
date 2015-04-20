@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve uses the functions loaded in the list created with
+## cacheSolve uses the functions in the list created with
 ## makeCacheMatrix. I will first test for the existance of the inverse 
 ## matrix loaded in m. If m is not NULL, cacheSolve will proceed to load
 ## the inverse from cache. Otherwise will use functions defined in
